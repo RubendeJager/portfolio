@@ -18,6 +18,14 @@
     background:#F28705;
     padding: 30px 0;
 }
+.logocorner {
+    height: auto;
+    width: auto;
+    max-height: 72px;
+    max-width: 250px;
+    z-index: -1;
+    position: relative;
+}
 .wrapper .sidebar h2{
     text-transform: uppercase;
     text-align: center;
@@ -27,6 +35,8 @@
     padding: 15px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     border-top: 1px solid rgba(225, 225, 225, 0.05);
+    position: relative;
+    top: 66px;
 }
 .wrapper .sidebar ul li a{
     display: block;
