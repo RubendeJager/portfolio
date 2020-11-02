@@ -56,6 +56,9 @@
     margin-bottom: 52px;
     width: 220px;
 }
+#linkedinlogo {
+    margin-left: 10px;
+}
 
 .wrapper .sidebar .social_media div a {
     padding: 20px 20px 20px 20px;
