@@ -1,9 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <h1 class="contacth1">Contactformulier</h1>
+    <div class="form">
+    <form action="post-demo.php" method="post">
+        <fieldset>
+            <legend>Persoonlijke gegevens</legend>
+            <label for="firstname">Voornaam</label>
+            <input type="text" name="Voornaam" id="firstname">
+            <label for="lastname">Achternaam</label>
+            <input type="text" name="Achternaam" id="lastname">
+            <label for="mail">E-mail</label>
+            <input type="email" name="E-mail" id="email">
+        </fieldset>
+        <fieldset>
+            <legend>Uw vraag</legend>
+            <label for="questionType">Soort vraag</label>
+            <select name="Type-vraag" id="questionType">
+                <option value="algemeen">Algemene vraag</option>
+                <option value="programmeren">Vraag voor programmeren</option>
+                <option value="muziek">Vraag voor muziek</option>
+            </select>
+            <label for="question">Uw vraag</label>
+            <textarea name="vraag" id="question" cols="30" rows="10"></textarea>
+        </fieldset>
+        <input type="submit" name="Verstuur">
+
+    </form>
+    </div>
 </body>
 </html>
