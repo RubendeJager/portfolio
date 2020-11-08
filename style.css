@@ -109,7 +109,11 @@ figure {
     float: right;
     margin: 0 20px 20px 0;
 }
+.main > .profielfoto {
+    margin-top: 60px;
+}
 figure .homepic {
+
     position: relative;
     width: 100%;
     object-fit: contain;
@@ -175,4 +179,6 @@ label, input, select {
     display: inline-block;
     margin: 10px 0;
 }
-
+.maincontenttext {
+    margin-top: 45px;
+}
